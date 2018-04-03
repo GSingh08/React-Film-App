@@ -1,0 +1,19 @@
+{
+  "name": "HW_U03_D04_FILM_APP",
+  "version": "1.0.0",
+  "description": "Fork and clone the `react-film` repo.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:wdi-nyc-ewok/HW_U03_D04_FILM_APP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
