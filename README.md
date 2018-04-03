@@ -1,16 +1,20 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Homework: Starting a Film Project, and ReactJS documentation reading
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Homework: Starting a Film Project and ReactJS documentation reading
 
 Fork and clone this repository.
 
 This project was created with `create-react-app`. Once you have the app cloned, you should run `npm install`. You can then run it with `npm run start`.
 
-## Your Mission
+## FOR TUESDAY
 
-Today the plan is to identify the app components, create the overall structure, then split that structure into individual components. You'll pass films as props to each component and ultimately use iteration to render one component for each film. At the end of this exercise, you will have this app:
+ - Complete Steps 1-8 in the film app
+ - read [the React documentation](https://reactjs.org/docs/handling-events.html), sections `Handling Events` through `Thinking in React`
+ - Answer the questions in `QUESTIONS-TUESDAY.md`
+
+The plan is to identify the app components, create the overall structure, then split that structure into individual components. You'll pass films as props to each component and ultimately use iteration to render one component for each film. At the end of this exercise, you will have this app:
 
 ![](images/film-1.png)
 
-Also, read [the React documentation](https://reactjs.org/docs/handling-events.html), sections `Handling Events` through `Thinking in React`.
+Also, 
 
 ### Tasks
 
@@ -81,4 +85,6 @@ Once you have this working, also pass `film.id` as a `key` prop to `FilmRow`, th
 #### Step 7: Flesh out each film item
 
 Make each `FilmListItem` look like the main finished image, using the following markup.
+
+#### BONUS
 
