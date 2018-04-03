@@ -10,6 +10,8 @@ Today the plan is to identify the app components, create the overall structure, 
 
 ![](images/film-1.png)
 
+Also, read [the React documentation](https://reactjs.org/docs/handling-events.html), sections `Handling Events` through `Thinking in React`.
+
 ### Tasks
 
 In the *root* of this repository, run `node server.js` to start the API server which will serve movie data.
