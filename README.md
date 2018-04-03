@@ -92,3 +92,5 @@ Make each `FilmListItem` look like the main finished image, using the following 
 #### BONUS
 
 Load data from [the TMDB API](https://developers.themoviedb.org/3) instead of our local web server.
+
+Add infinite scroll for the `FilmList`. It should load a finite number of films from the API, and when the user scrolls near the bottom of the component, it should make a request number of films from the API.
