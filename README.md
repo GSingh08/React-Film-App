@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Starting a Film Project
 
-Fork and clone the `react-film` repo.
+Fork and clone this repository.
 
 This project was created with `create-react-app`. Once you have the app cloned, you should run `npm install`. You can then run it with `npm run start`.
 
@@ -11,6 +11,8 @@ Today the plan is to identify the app components, create the overall structure, 
 ![](images/film-1.png)
 
 ### Tasks
+
+In the *root* of this repository, run `node server.js` to start the API server which will serve movie data.
 
 **Importantly**: After each step below, check your application to see how it looks before going to the next one. It's good practice to be sure your app is working correctly before adding new functionality.
 
