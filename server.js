@@ -1,6 +1,15 @@
 const express = require('express')
 const app = express()
 
+app.use(function (req, res, next) {
+  res.header('Access-Control-Allow-Origin', '*')
+  res.header(
+    'Access-Control-Allow-Headers',
+    'Origin, X-Requested-With, Content-Type, Accept'
+  )
+  next()
+})
+
 const movies = [
   {
     id: 1,
@@ -79,6 +88,6 @@ const movies = [
     poster: 'https://ia.media-imdb.com/images/M/MV5BYzllMjJkODAtYjMwMi00YmNhLWFhYzAtZjZjODg5YzEwOGUwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY999_CR0,0,679,999_AL_.jpg'
   }
 ]
-app.get('/movies', (req, res) => res.json(movies))
+app.get('/api/movies', (req, res) => res.json(movies))
 
 app.listen(4567, () => console.log('Example app listening on port 4567!'))
