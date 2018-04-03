@@ -20,6 +20,8 @@ Also,
 
 In the *root* of this repository, run `node server.js` to start the API server which will serve movie data.
 
+In the `app` directory, run `yarn start` to start the React server for your front-end app.
+
 **Importantly**: After each step below, check your application to see how it looks before going to the next one. It's good practice to be sure your app is working correctly before adding new functionality.
 
 <details>
