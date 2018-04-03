@@ -17,8 +17,6 @@ The plan is to identify the app components, create the overall structure, then s
 
 ![](film-1.png)
 
-Also, 
-
 ### Tasks
 
 In the *root* of this repository, run `node server.js` to start the API server which will serve movie data.
