@@ -11,6 +11,8 @@ This project was created with `create-react-app`. Once you have the app cloned, 
  - Complete Steps 1-8 in the film app
  - Answer the questions in `QUESTIONS-TUESDAY.md`
 
+### Film app, Steps 1-8
+
 The plan is to identify the app components, create the overall structure, then split that structure into individual components. You'll pass films as props to each component and ultimately use iteration to render one component for each film. At the end of this exercise, you will have this app:
 
 ![](film-1.png)
