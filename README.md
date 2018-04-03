@@ -6,8 +6,9 @@ This project was created with `create-react-app`. Once you have the app cloned, 
 
 ## FOR TUESDAY
 
+ - Read [our React cheat sheet](https://git.generalassemb.ly/wdi-nyc-ewok/ewok-class-info/wiki/React-Cheat-Sheet), review your notes, and make sure you are comfortable with all the concepts we've already covered.
+ - Read [the React documentation](https://reactjs.org/docs/handling-events.html), sections `Handling Events` through `Thinking in React`.
  - Complete Steps 1-8 in the film app
- - read [the React documentation](https://reactjs.org/docs/handling-events.html), sections `Handling Events` through `Thinking in React`
  - Answer the questions in `QUESTIONS-TUESDAY.md`
 
 The plan is to identify the app components, create the overall structure, then split that structure into individual components. You'll pass films as props to each component and ultimately use iteration to render one component for each film. At the end of this exercise, you will have this app:
