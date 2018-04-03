@@ -1,6 +1,15 @@
 const express = require("express");
 const app = express();
 
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
+
 const movies = [
   {
     id: 1,
@@ -37,6 +46,6 @@ const movies = [
     poster: "https://images-na.ssl-images-amazon.com/images/I/51U1qJ70-ML.jpg"
   }
 ];
-app.get("/movies", (req, res) => res.json(movies));
+app.get("/api/movies", (req, res) => res.json(movies));
 
 app.listen(4567, () => console.log("Example app listening on port 4567!"));
