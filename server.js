@@ -50,7 +50,7 @@ const movies = [
     title: 'Kill Bill: Volume 1',
     description: "The lead character, called 'The Bride,' was a member of the Deadly Viper Assassination Squad, led by her lover 'Bill.' Upon realizing she was pregnant with Bill's child, 'The Bride' decided to escape her life as a killer. She fled to Texas, met a young man, who, on the day of their wedding rehearsal was gunned down by an angry and jealous Bill (with the assistance of the Deadly Viper Assassination Squad). Four years later, 'The Bride' wakes from a coma, and discovers her baby is gone. She, then, decides to seek revenge upon the five people who destroyed her life and killed her baby. The saga of Kill Bill Volume I begins.",
     year: 2003,
-    poster_url: 'https://en.wikipedia.org/wiki/Kill_Bill:_Volume_1#/media/File:Kill_Bill_Volume_1.png'
+    poster_url: 'https://ia.media-imdb.com/images/M/MV5BYTczMGFiOWItMjA3Mi00YTU5LWIwMDgtYTEzNjRkNDkwMTE2XkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg'
   },
   {
     id: 6,
