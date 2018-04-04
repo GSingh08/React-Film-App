@@ -23,6 +23,25 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.images {
+  width: 100px;
+  height: 100px;
+}
+.film-list {
+  flex-direction: row;
+}
+.film-details {
+}
+.film-library {
+  display: flex;
+  overflow: scroll;
+  height: 600px;
 }
