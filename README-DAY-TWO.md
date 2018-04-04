@@ -17,7 +17,16 @@ By the end of today's homework, we're going to change the Movie API to load data
 *   When a user clicks on a `FilmListItem`, we should see more information about the film in our right-hand pane `FilmDetails`.
 *   HINTS:
     *   We need to change the state of our App to keep track of what film is currently being displayed. We should only store the minimal information (an ID) of the film being displayed. Revisit [this part of last night's reading](https://reactjs.org/docs/thinking-in-react.html#step-3-identify-the-minimal-but-complete-representation-of-ui-state) for a refresher on storing the minimal representation of state
-    *   We need an event listener to listen for the click event on `FilmListItem`. We need to pass down extra data to the FilmDetails component.
-*   Make the movie detail view look like this:
+    *   We need an event listener to listen for the click event on `FilmListItem`.
+    *   We need to pass down extra data to the FilmDetails component. Apply conditional rendering!
+    *   Make the movie detail view look like this:
 
 ![](bladerunner.png)
+
+## Part 3: Movie CRUD!
+
+*   Implement ALL CRUD endpoints in your Express server for the movie model. Confirm that they work using Postman.
+*   POST `/api/movie`
+*   GET `/api/movie/:id`
+*   PUT `/api/movie/:id`
+*   DELETE `/api/movie/:id`
