@@ -32,16 +32,16 @@
 }
 
 .images {
-  width: 100px;
   height: 100px;
-}
-.film-list {
-  flex-direction: row;
-}
-.film-details {
 }
 .film-library {
   display: flex;
-  overflow: scroll;
+}
+.film-details {
+  flex: 2;
+}
+.film-list {
+  flex: 1;
+  overflow-y: scroll;
   height: 600px;
 }

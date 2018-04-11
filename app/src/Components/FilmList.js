@@ -5,8 +5,8 @@ class FilmList extends Component {
   render() {
     return (
       <div className="film-library" onscroll="myFunction()">
+        <h1 className="section-title">FILMS</h1>
         <div className="film-list">
-          <h1 className="section-title">FILMS</h1>
           <FilmListItem list={this.props.movieList} />
         </div>
       </div>

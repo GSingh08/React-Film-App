@@ -10,7 +10,7 @@ class FilmListItem extends Component {
         {this.props.list.map(movie => {
           return (
             <li>
-              <img class="images" src={movie.poster} />
+              <img class="images" src={movie.poster_url} />
               {movie.title}
             </li>
           );
