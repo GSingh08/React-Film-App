@@ -17,4 +17,11 @@ app.get("/api/movies", (request, response) => {
   });
 });
 
+app.get("/api/movies/:id", (request, response) => {
+  const id = request.params.id;
+  Movie.findById(id).then(movie => {
+    response.json(movie);
+  });
+});
+
 app.listen(4567, () => console.log("Example app listening on port 4567!"));

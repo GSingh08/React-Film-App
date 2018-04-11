@@ -1,43 +1,42 @@
 import React, { Component } from "react";
-import FilmDetails from "./Components/FilmDetails.js";
-import FilmList from "./Components/FilmList.js";
-import FilmListItem from "./Components/FilmListItem.js";
 import "./App.css";
+import FilmList from "./FilmList";
+import FilmDetails from "./FilmDetails";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class App extends Component {
   constructor(props) {
-    super(props);
+    super();
     this.state = {
-      movieList: null,
-      movieListLoaded: false
+      apiDataLoaded: false,
+      movieData: null
     };
   }
 
+  // fetch data from our api
   componentDidMount() {
     fetch("http://localhost:4567/api/movies")
-      .then(response => response.json())
-      .then(response => {
-        console.log(response);
+      .then(res => res.json())
+      .then(res => {
         this.setState({
-          movieList: response,
-          movieListLoaded: true
+          apiDataLoaded: true,
+          movieData: res
         });
-      })
-      .catch(err => console.log(err));
+      });
   }
+
   render() {
     return (
-      <div className="film-library">
-        {this.state.movieListLoaded ? (
-          <FilmList
-            movieList={this.state.movieList}
-            movieListLoaded={this.state.movieListLoaded}
-          />
-        ) : (
-          <p> Loading </p>
-        )}
-        <FilmDetails />
-      </div>
+      <Router>
+        <div className="film-library">
+          {this.state.apiDataLoaded ? (
+            <FilmList movieData={this.state.movieData} />
+          ) : (
+            <p>loading</p>
+          )}
+          <Route exact path="movies/:id" component={FilmDetails} />
+        </div>
+      </Router>
     );
   }
 }
